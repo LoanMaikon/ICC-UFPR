@@ -1,0 +1,6 @@
+Alunos:
+Gustavo F. Jakobi   GRR20221253
+Luan Marko Kujavski GRR20221236
+
+- O script.sh aceita um argumento que é o "xe" da especificação,
+  utilizado para rodar o programa ./interpola

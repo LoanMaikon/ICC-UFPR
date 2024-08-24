@@ -1,0 +1,9 @@
+Alunos:
+Gustavo F. Jakobi   GRR20221253
+Luan Marko Kujavski GRR20221236
+
+Otimizações:
+Na função de multiplicação de matriz por vetor, foi utilizado Unroll & Jam. Além disso, como não há aliasing, foi adicionado "restrict" para informarmos ao compilador que não há esse problema.
+Na função de multiplicação de matriz por matriz, foram utilizados Unroll & Jam e Blocking. Além disso, como não há aliasing, foi adicionado "restrict" para informarmos ao compilador que não há esse problema.
+O fator de unroll (UF) foi definido como 4, seguindo as orientações dos materiais de aula.
+O fator de blocking (BK) foi definido como 4, seguindo as orientações dos materiais de aula.

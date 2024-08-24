@@ -1,0 +1,22 @@
+Alunos:
+Gustavo F. Jakobi   GRR20221253
+Luan Marko Kujavski GRR20221236
+
+Compare os resultados para n = 2 dimensões nos métodos dos Retângulos e de Monte Carlo.
+Quantos pontos deveriam ser usados no método dos Retângulos para que seu cálculo fosse o mais próximo possível do resultado gerado por Monte Carlos para 107 amostras? Compare também os tempos de execução de cada integração.
+
+6800000 é o ponto em que mais me aproximei da resposta dos dois. 
+Já sobre o tempo de execução:
+Monte Carlo: Tempo decorrido: 132.400075 miliseg.
+Método dos retângulos: Tempo decorrido: 21.071643 miliseg.
+
+Compare os resultados para n = 2, 4, 8 para o método de Monte Carlo;
+
+Para n = 2:
+-2184.499637
+
+para n = 4:
+-279599.832820
+
+para n = 8:
+-2290394835.398780

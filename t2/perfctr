@@ -1,0 +1,20 @@
+#!/bin/bash
+
+LIKWID_CMD="likwid-perfctr -C $1 -g $2 -m"
+shift 2
+
+echo "performance" > /sys/devices/system/cpu/cpufreq/policy3/scaling_governor
+
+${LIKWID_CMD} $*
+
+echo "powersave" > /sys/devices/system/cpu/cpufreq/policy3/scaling_governor
+
+# Para obter topologia dos cpu's
+#      likwid-topology -c -g
+
+# Para obter lista de grupos de indicadores de performance:
+#      likwid-perfctr -a
+
+# Para obter lista de Eventos e Contadores
+#      likwid-perfctr -e
+
